@@ -90,7 +90,7 @@ const HomePage = () => {
         }}
       />
 
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
         {Paginate(filterProducts, currentPage).map((product) => (
           <Link key={product.id} to={`/item/${product.id}`}>
             <div
