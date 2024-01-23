@@ -77,6 +77,7 @@ const ItemPage = () => {
             cursor: "pointer",
             boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
           }}
+          onClick={() => alert('Item added to cart!')}
         >
           Add to Cart
         </button>
